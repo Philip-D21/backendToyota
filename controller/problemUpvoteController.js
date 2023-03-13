@@ -1,5 +1,5 @@
 const ProblemUpvote = require("../model/problemUpvote");
-const AppError = require("../utils/appError");
+const AppError = require("../utils/AppError");
 const catchAsync = require("../utils/catchAsync");
 
 exports.createUpvote = catchAsync(async (req, res, next) => {

@@ -1,5 +1,5 @@
 const SolutionUpvote = require("../model/solutionUpvote");
-const AppError = require("../utils/appError");
+const AppError = require("../utils/AppError");
 const catchAsync = require("../utils/catchAsync");
 
 // To create all upvotes
